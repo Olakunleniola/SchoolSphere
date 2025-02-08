@@ -1,0 +1,54 @@
+/mnt/c/Users/user/Desktop/DEV/PROJECTS/PHOTONCORE/SCHOOLSPHERE /mnt/c/Users/user/Desktop/DEV/PROJECTS/PHOTONCORE/SCHOOLSPHERE
+Directory structure for: /mnt/c/Users/user/Desktop/DEV/PROJECTS/PHOTONCORE/SCHOOLSPHERE
+|- eslint.config.mjs
+|- package-lock.json
+|- package.json
+|- print_folder_structure.py
+|- resources
+|  |- Database Tables.docx
+|  |- Database Tables.pdf
+|- src
+|  |- app.js
+|  |- config
+|  |  |- database.js
+|  |  |- index.js
+|  |- controllers
+|  |  |- auth.controller.js
+|  |  |- class.controller.js
+|  |  |- session.controller.js
+|  |  |- subject.controller.js
+|  |  |- term.controller.js
+|  |- middlewares
+|  |  |- auth.middleware.js
+|  |  |- error.middleware.js
+|  |  |- index.js
+|  |- models
+|  |  |- class.model.js
+|  |  |- session.model.js
+|  |  |- subject.model.js
+|  |  |- term.mode.js
+|  |  |- users.model.js
+|  |- routes
+|  |  |- auth.route.js
+|  |  |- class.route.js
+|  |  |- session.route.js
+|  |  |- subject.routes.js
+|  |  |- term.route.js
+|  |- server.js
+|  |- services
+|  |  |- classService.js
+|  |  |- sessionService.js
+|  |  |- subjectService.js
+|  |  |- term.Service.js
+|  |  |- userService.js
+|  |- utils
+|     |- helper.js
+|     |- logger.js
+|- structure.txt
+|- tests
+   |- development
+   |  |- test.js
+   |- integration
+      |- routes
+         |- auth.test.js
+         |- class.test.js
