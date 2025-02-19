@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'apps.user',
+    'apps.account',
     'apps.school',
     'apps.dashboard',
 ]
@@ -137,7 +137,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'user.User' 
+AUTH_USER_MODEL = 'account.User' 
 
 ROOT_HOSTCONF = 'schoolsphere.hosts'
 DEFAULT_HOST = 'www'

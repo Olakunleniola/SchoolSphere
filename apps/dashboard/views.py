@@ -8,4 +8,4 @@ def dashboard(request):
         # Assume the subdomain middleware has set request.subdomain
         school = get_object_or_404(School, slug=request.subdomain)
         return render(request, 'dashboard.html', {'school': school})
-    return redirect('home')
+    return redirect('homepage.html')

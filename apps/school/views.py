@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.shortcuts import render, redirect
-from apps.user.models import User
+from apps.account.models import User
 from django.contrib.auth.hashers import make_password
 from .forms import SchoolSignupForm
 from .models import School
